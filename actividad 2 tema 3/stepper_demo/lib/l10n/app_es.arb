@@ -1,0 +1,53 @@
+{
+  "@@locale": "es",
+  "appTitle": "Compra de Entradas",
+  "eventName": "Gran Concierto Sinfónico de Primavera",
+  "eventSubtitle": "Auditorio y Centro de Congresos Víctor Villegas",
+  "ticketsCount": "{count, plural, =1{1 entrada} other{{count} entradas}}",
+  "@ticketsCount": {
+    "description": "Número de entradas con soporte plural",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "ticketUnitPrice": "4,50 € por entrada",
+  "totalPrice": "Precio total: {price}",
+  "@totalPrice": {
+    "description": "Precio total con formato de moneda",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "eventDateLabel": "Fecha del evento: {date}",
+  "@eventDateLabel": {
+    "description": "Fecha del evento formateada",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stepperSemanticLabel": "Selector de cantidad de entradas",
+  "decrementTooltip": "Restar entrada",
+  "incrementTooltip": "Sumar entrada",
+  "maxReachedMessage": "Has llegado al máximo",
+  "ratingTitle": "Valoración del evento",
+  "confirmPurchase": "Comprar entradas",
+  "purchaseSuccess": "¡Has comprado {count, plural, =1{1 entrada} other{{count} entradas}} por {price}!",
+  "@purchaseSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "languageLabel": "Idioma"
+}

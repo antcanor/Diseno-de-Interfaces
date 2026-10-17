@@ -1,0 +1,53 @@
+{
+  "@@locale": "en",
+  "appTitle": "Ticket Purchase",
+  "eventName": "Grand Spring Symphony Concert",
+  "eventSubtitle": "Víctor Villegas Auditorium and Congress Center",
+  "ticketsCount": "{count, plural, =1{1 ticket} other{{count} tickets}}",
+  "@ticketsCount": {
+    "description": "Number of tickets with plural support",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+  "ticketUnitPrice": "€4.50 per ticket",
+  "totalPrice": "Total price: {price}",
+  "@totalPrice": {
+    "description": "Total price with currency format",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "eventDateLabel": "Event date: {date}",
+  "@eventDateLabel": {
+    "description": "Formatted event date",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stepperSemanticLabel": "Ticket quantity selector",
+  "decrementTooltip": "Remove ticket",
+  "incrementTooltip": "Add ticket",
+  "maxReachedMessage": "You have reached the maximum",
+  "ratingTitle": "Event Rating",
+  "confirmPurchase": "Purchase tickets",
+  "purchaseSuccess": "You have purchased {count, plural, =1{1 ticket} other{{count} tickets}} for {price}!",
+  "@purchaseSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "languageLabel": "Language"
+}
